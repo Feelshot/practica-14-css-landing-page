@@ -19,3 +19,94 @@ body {
     font-family: 'Raleway', sans-serif;
     */
 }
+/* ---- Header ---- */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header__logo {}
+.header__link {}
+
+/* ---- Main ---- */
+.main__card--first {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.main__card--first figure {
+    width: 80%;
+    height: auto;
+}
+.main__card--first img {
+    width: 100%;
+    height: auto;
+}
+.main__card--first section, .main__card--first section, form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main__card--second {
+    background-image: url(img/bg-curve-mobile.svg);
+    background-color: #f8f8fe;
+    background-repeat: no-repeat;
+    background-position: -10px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.main__card--second figure {
+    width: 80%;
+    height: auto;
+}
+.main__card--second figure img {
+    width: 100%;
+    height: auto;
+}
+.main__card--second .main__text-secondCard {}
+.main__card--second .main__card--secondCard {
+    background-color: white;
+    margin: 0 auto 0 auto;
+    width: 280px;
+    height: ;
+}
+.main__card--secondCard div {
+    display: flex;
+}
+.main__card--secondCard div img {
+    width: 30px;
+    height: auto;
+}
+.main__card--secondCard div div {
+    display: flex;
+    flex-direction: column;
+}
+.main__card--secondCard .secondCard_name {
+
+}
+.main__card--secondCard .secondCard_position {
+    
+}
+.main__card--third {
+    background: var(--Desaturated-Blue);
+    color: white;
+}
+
+/* ---- Footer ---- */
+footer {
+    background: var(--Very-Dark-Blue);
+    color: #fff;
+}
+.footer__logo--bottom {}
+.logo--bottom {}
+.footer__icon--phone {}
+.footer__icon--mail {}
+.footer__nav--list {}
+.footer__nav--first {}
+.footer__nav--second {}
+.footer__icons--social {}
+
