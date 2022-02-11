@@ -44,7 +44,14 @@ header {
 }
 
 /* ---- Main ---- */
-
+form input[type="email"]{
+	width:300px;
+    height: 30px;
+	padding: 0 0 0 4px;
+	border: 0 solid #f6f6f6;
+	background-color:#f6f6f6;
+	display:inline-block;
+}
 /*BLOQUE 01*/
 .main__card--first {
     display: flex;
@@ -80,6 +87,16 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+.button-top {
+    width: 300px;
+    height: 35px;
+    border: none;
+    background-color: var(--Bright-Blue);
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+}
 /* CURVAS */
 .curves {
     margin-top: 80px;
@@ -107,9 +124,8 @@ header {
     align-items: center;
 }
 .main__card--second figure {
-    width: 80%;
     height: auto;
-    margin-top: 30px;
+    margin: 30px auto 0 auto;
 }
 .main__card--second figure img {
     width: 300px;
@@ -204,7 +220,20 @@ header {
     width: 320px;
     margin: 14px auto 10px auto;
 }
-
+.form-bottom {
+    width: 300px;
+    height: 30px;
+    color: var(--Light-Gray);
+}
+.button-bottom {
+    width: 300px;
+    height: 35px;
+    border: none;
+    background-color: var(--Bright-Blue);
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+}
 
 /* ---- Footer ---- */
 footer {
@@ -253,7 +282,7 @@ footer {
     color: white;
     font-family: 'Open Sans', sans-serif; 
 }
-.footer__nav--first {}
+
 .footer__nav--second {
     margin-top: 40px;
 }
