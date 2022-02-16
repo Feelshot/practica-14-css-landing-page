@@ -87,7 +87,6 @@ form input[type="email"]{
     justify-content: center;
     align-items: center;
 }
-
 .button-top {
     width: 300px;
     height: 35px;
@@ -297,10 +296,90 @@ footer {
 /* =-=-=-=- MEDIA QUERIES =-=-=-=- */
 
 @media (min-width: 900px) {
-    #curve-mobile {
+    /* ---- Header ---- */
+    .header__logo {
+        margin: 60px 0 0 80px;
+    }
+    .header__logo img {
+        width: 150px;
+    }
+    .header__links {
+        margin-top: 60px;
+        margin-right: 80px;
+    }
+    .header__links a {
+        font-size: 14px;
+        margin-left: 50px; 
+    }
+    /* ---- Form ---- */
+    #formulario-top {
+        display: flex;
+        flex-direction: row;
+    }
+    form input[type="email"]{
+        width:300px;
+        height: 35px;
+        border: 1px solid #c5c5c5;
+        background-color:#ffffff;
+    }
+    .button-top {
+        margin-left: 15px;
+        width: 200px;
+    }
+        /*BLOQUE 01*/
+    .main__card--first {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .main__card--first figure {
+        width: 40%;
+        height: auto;
+    }
+    .main__card--first img {
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .main__card--first section {
+        font-family: 'Open Sans', sans-serif; 
+        text-align: left;
+        width: 520px;
+    }
+    .main__card--first h1 {
+        font-size: 36px;
+        font-weight: bolder;
+        margin: 20px auto 20px auto;
+    }
+    .main__card--first p {
+        margin-bottom: 20px;
+    }
+    .main__card--first section, .main__card--first section, form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
+
+    #curve-mobile {
+        display: none;
     }
     #curve-desktop {
-
+        display: contents !important;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
     }
+    /*
+    #curve-mobile {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    }
+    #curve-desktop {
+        display: none;
+    }
+    */
 }
